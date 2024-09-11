@@ -26,11 +26,11 @@
   r'C:\Users\Mohammad\Desktop\My_Folder\pdf_four.pdf'
 ]
 
-output_file_path = r'C:\Users\Mohammad\Desktop\My_Folder\output.pdf'
+output_file_path = os.path.join(r'C:\Users\Mohammad\Desktop\My_Folder', 'output.pdf')
 </code></pre>
 
   <p>3. Run the script:</p>
-  <pre><code>python merge_pdfs.py</code></pre>
+  <pre><code>python pdfjoiner.py</code></pre>
 
   <h3>Error Handling</h3>
   <ul>
